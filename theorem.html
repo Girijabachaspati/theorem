@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Theorem</title>
+	<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<p> <center><font color="red"><font size="7"> De Moivre's Theorem</font></font> </center></p>
+<p> <center><b> Statement: For any real number x and integer n it holds that 
+  \[(\cos x + i\sin x)^2=\cos nx+ i\sin nx,\]
+ </b>
+  
+ <p><b>Proof:</b></p>
+
+ <p> Case 1: When n is a positive integer.
+  By actual multiplication we have
+   $$(\cos \theta _1+i\sin \theta _1) (\cos \theta _2+i\sin \theta _2)$$
+  $$=\cos \theta _1 \cos \theta _2 - \sin \theta _1 \sin \theta_2 + i (\sin \theta _1 \cos \theta _2 +\cos \theta _1 \sin \theta_2)$$
+  $$=\cos(\theta _1 +\theta _2) + i\sin(\theta _1+\theta _2)$$
+ Similarly,
+  $$(\cos \theta _1 +i\sin \theta _1)(\ cos \theta _2+i\sin \theta _2) (\cos \theta _3+i\sin \theta _3)$$
+   $$=\{\cos (\theta_1 +\theta_2) + i\sin(\theta_1+\theta_2)\} (\cos\theta_3+i\sin\theta_3)$$
+   $$=\cos(\theta _1 +\theta _2+\theta_3) + i\sin(\theta _1+\theta _2+\theta_3)$$,
+   
+   Proceeding in this way, the product of the n factors
+   $$(\cos\theta_1 +i\sin\theta_1)(\cos\theta_2 + i\sin\theta_2) \cdots (\cos\theta_n+i\sin\theta_n)$$
+   $$=\cos(\theta_1+\theta_2+\cdots+\theta_n) + i\sin(\theta_1+\theta_2+\cdots+\theta_n).$$
+   
+ Put in this identity $$ \theta_1=\theta_2=\cdots=\theta_n=\theta $$
+
+ Then we have
+ 
+  $$(\cos\theta+i\sin\theta)^n=\cos n\theta+i\sin n\theta . $$</p>
+  
+ <p> Case 2:When n is a negative integer.
+  Let n=-m, then m is a positive integer, and
+  $$(\cos\theta+i\sin\theta)^n $$
+  $$=(\cos\theta+i\sin\theta)^{-m}$$
+ $$=\frac{1}{(\cos\theta+i\sin\theta)^m}$$
+ $$=\frac{1}{\cos m\theta+i\sin m\theta}$$  
+ $$=\frac{\cos m\theta -i\sin m\theta}{(\cos m\theta=i\sin m\theta) (\cos m\theta-i\sin m\theta)}$$
+ $$=\frac{\cos m\theta-i\sin m\theta}{\cos^2 m\theta+\sin^2 m\theta}$$  
+ $$=\cos m\theta-i\sin m\theta $$
+ $$=\cos (-m) \theta +i\sin(-m) \theta $$
+   $$\cos n \theta +i\sin n \theta $$ </p>
+ <p> Case 3: When  n is a fraction, positive or negative.
+ Let n=p/q, where q is a positive integer and  p is any integer, positive or negative.
+ Now,$$(\cos \frac{\theta}{q}+ i\sin \frac{\theta}{q})^q$$
+ $$=\cos(q.\frac{\theta}{q})+i\sin(q.\frac{\theta}{q})$$ 
+ $$=\cos\theta+i\sin\theta .$$
+ Therefore taking the q<sup>th</sup> root of both sides,
+ $$\cos \frac{\theta}{q}+i\sin \frac{\theta}{q}$$ is one of the values of$$(\cos \theta +i \sin \theta)^\frac{1}{q}$$
+ Raise each of these quantities to the p<sup>th</sup> power.
+ Then one of the values of
+ $$(\cos \theta + i\sin\theta)^\frac{p}{q}$$
+ $$=(\cos \frac{\theta}{q}+ i\sin\frac{\theta}{q})^p,$$
+ $$=\cos \frac{p\theta}{q} + i\sin\frac{p\theta}{q}.$$  
+
+ Hence,one of the values of 
+ $$(\cos\theta+ i\sin\theta)^n $$ is $$\cos n\theta+i\sin n\theta.$$
+ 
+ Thus, the theorem is completely established for all rational values of n.</center>
+</p>
+</body>
+</html>
